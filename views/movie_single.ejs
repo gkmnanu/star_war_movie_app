@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- head include -->
+    <% include partials/head.ejs %>
+  </head>
+  <body>
+    <% include partials/header.ejs %>
+
+    <div id="hero-image-single" style="background-image: url('/images/<%= movie.hero_image %>')">
+        <h1 id="hero-title"><%= title %></h1> 
+    </div>
+
+    
+    <div class="padding clearfix container">
+        <div class="poster-wrapper">
+            <img src="/images/<%= movie.poster %>" class="img-fluid">
+        </div>
+
+        <div class="description-wrapper">
+            <div class="description">
+                <h2 class="movie-header">Description</h2>
+                <p><%= movie.description %></p>
+            </div>
+        </div>
+
+        <div class="main-characters">
+            <h2 class="movie-header-2">Main Charaters</h2>
+            <ul>
+                <% for (var i = 0; i< main_characters.length; i++) { %>
+                    <li><%= main_characters[i] %></li>
+                <% } %>
+            </ul>
+        </div>
+
+
+    </div>
+
+ 
+
+  
+
+  <!-- footer -->
+    <% include partials/footer.ejs %>
+    
+    
+    <!-- javascript include -->
+    <% include partials/scripts.ejs %>
+  </body>
+</html>

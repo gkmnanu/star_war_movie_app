@@ -1,0 +1,15 @@
+{
+  "name": "star",
+  "version": "1.0.0",
+  "description": "A basic move app\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Di\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[A\u001b[B\u001b[D\u001b[D\u001b[D\u001b[De\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D \u001b[\u001b[C\u001b[app\u001b[D\u001b[D\u001b[\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gautam",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
